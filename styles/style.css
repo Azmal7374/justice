@@ -25,6 +25,11 @@ border-radius: 8px;
 color: white;
 
 }
+
+.btns-colors:focus{
+      outline: none;
+    
+    }
 /* nav styles starts */
 
 .banner-img{
@@ -51,6 +56,8 @@ color: white;
     border-radius:50%;
     margin:0 auto;
 }
+
+
 
 
 .banner-img-1{
@@ -87,7 +94,9 @@ color: white;
 }
  
 
-
+.question-image{
+    height:480px;
+}
  
 
 
@@ -103,7 +112,15 @@ color: white;
 
 }
 
+.accordion-button:not(.collapsed) {
+    
+    box-shadow:none;
+}
 
+
+
+  
+ 
 
 @media only screen and (max-width:576px){
 
