@@ -4,6 +4,9 @@
 .colors2{
     background-color:  #B68C5A;
 }
+.colors3{
+    background-color: #414040;
+}
 
 /* nav styles starts */
 
@@ -85,6 +88,20 @@ color: white;
  
 
 
+ 
+
+
+.accordion{
+    --bs-accordion-active-color:none;
+    --bs-accordion-active-bg: none;
+    
+}
+
+.accordion-button:focus {
+   
+    box-shadow: none;
+
+}
 
 
 
