@@ -1,3 +1,6 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .colors1{
     color: #646262;
 }
@@ -25,42 +28,35 @@ border-radius: 8px;
 color: white;
 
 }
-
 .btns-colors:focus{
       outline: none;
     
     }
-/* nav styles starts */
+/* nav styles ends */
 
+/* banner style starts */
 .banner-img{
     background:url(../images/Rectangle\ 4.png),linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
     width:100%;
-    height: 650px;
+    height:550px;
     border-radius: 8px;
-    
-    
-    
+   
     
 }
+/* banner style ends */
 
 .btn-extra{
     width: 350px;
 }
-.arrow-design{
-    background-color:  #B68C5A;
-    width: 30px;
-    height: 30px;
-    border-radius:50%;
-    margin:0 auto;
-}
+ 
 
 
 
 
-.banner-img-1{
+.slider-img-1{
     background-image:url(../images/Rectangle\ 6.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -68,14 +64,14 @@ color: white;
     height:80vh;
 }
 
-.banner-img-2{
+.slider-img-2{
     background-image:url(../images/closeup-gavel-judgement-concept.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height:80vh;
 }
-.banner-img-3{
+.slider-img-3{
     background-image:url(../images/judges-gavel-scale-justice-black-table.jpg);
     background-repeat: no-repeat;
     background-position: center;
